@@ -44,17 +44,7 @@ description: Readable, maintainable code standards. Use when writing, editing, r
 ---
 
 ## Comments & Didacticism
-
-> **The code is the explanation. Comments are the apology.**
-
-- **Do not state the obvious.**
-  ```
-  ❌  // increment counter by 1
-      counter += 1;
-
-  ✅  counter += 1;
-  ```
-- **Do not write tutorials in comments.** Assume the reader knows the language. Explain *why* a non-obvious choice was made, not *what* the syntax does.
+- **Do NOT assume the reader knows the language.** Explain *why* a non-obvious choice was made, and *what* the syntax does.
 - **Do not leave commented-out code.** Delete it. Git remembers.
 
 - **Use simple, direct clauses in comments.** Prefer imperative style. Write `Retry on timeout` not `This will retry the operation if a timeout occurs`. Comments should be brief and to the point.
